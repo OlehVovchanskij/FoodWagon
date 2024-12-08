@@ -1,0 +1,952 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="shortcut icon"
+			href="./assets/images/logo.svg"
+			type="image/x-icon"
+		/>
+		<link rel="stylesheet" href="./assets/styles/style.css" />
+		<title style="color: #f17228">foodwagon</title>
+	</head>
+	<body>
+		<div class="navbar">
+			<div class="container">
+				<div class="navbar__content">
+					<div class="logo">
+						<img src="./assets/images/navbar/Logo.svg" alt="" />
+					</div>
+					<div class="address">
+						<span
+							>Deliver to:
+							<img src="./assets/images/navbar/map-marker-alt.svg" alt="" />
+							<span class="regular"> Current Location</span>Mohammadpur Bus
+							Stand, Dhaka</span
+						>
+					</div>
+					<nav class="nav">
+						<a href="#" class="nav__item">
+							<img src="./assets/images/navbar/Search.svg" alt="" />
+							Search Food </a
+						><a href="#" class="nav__item nav__bnt">
+							<img src="./assets/images/navbar/user.svg" alt="" />
+							<p class="linear-orange">Login</p>
+						</a>
+					</nav>
+				</div>
+			</div>
+		</div>
+		<section class="header">
+			<img
+				src="./assets/images/Header/background.png"
+				alt=""
+				class="header__bg"
+			/>
+			<div class="container">
+				<div class="header__content">
+					<img
+						src="./assets/images/Header/background.png"
+						alt=""
+						class="header__bg"
+					/>
+					<div class="header__content">
+						<h1 class="header__title">Are you starving?</h1>
+						<p class="header__subtitle">
+							Within a few clicks, find meals that are accessible near you
+						</p>
+						<div class="header__form">
+							<div class="header__form__type">
+								<div class="type active__type">
+									<img src="./assets/images/Header/delivery.svg" alt="" />
+									Delivery
+								</div>
+								<div class="type">
+									<img src="./assets/images/Header/pickup.svg" alt="" />
+									Pickup
+								</div>
+							</div>
+							<div class="address__form">
+								<div class="address__input">
+									<img
+										src="./assets/images/Header/marker.svg"
+										alt=""
+										class="header__input__img"
+									/>
+
+									<input
+										id="header__address__input"
+										type="text"
+										placeholder="Enter Your Address"
+									/>
+								</div>
+								<a href="#" class="header__form__btn"
+									><img src="./assets/images/Header/search.svg" alt="" />Find
+									Food</a
+								>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="discounts">
+			<div class="container">
+				<div class="discounts__content">
+					<div class="discounts__item">
+						<div class="discounts__item__img">
+							<img
+								class="img__discounts__item__picture"
+								src="/assets/images/discounts/Image.png"
+							/>
+							<div class="sale__block">
+								<div class="persents">15</div>
+								<p class="sale__opt">
+									%
+									<span>off</span>
+								</p>
+							</div>
+						</div>
+						<div class="discounts__item__title">Greys Vage</div>
+						<div class="discounts__item__timer">6 Days Remaining</div>
+					</div>
+					<div class="futunre__item">
+						<div class="discounts__item__img">
+							<img
+								class="img__discounts__item__picture"
+								src="/assets/images/discounts/Image-1.png"
+							/>
+							<div class="sale__block">
+								<div class="persents">10</div>
+								<p class="sale__opt">
+									%
+									<span>off</span>
+								</p>
+							</div>
+						</div>
+						<div class="discounts__item__title">Greys Vage</div>
+						<div class="discounts__item__timer">6 Days Remaining</div>
+					</div>
+					<div class="futunre__item">
+						<div class="discounts__item__img">
+							<img
+								class="img__discounts__item__picture"
+								src="/assets/images/discounts/Image-2.png"
+							/>
+							<div class="sale__block">
+								<div class="persents">25</div>
+								<p class="sale__opt">
+									%
+									<span>off</span>
+								</p>
+							</div>
+						</div>
+						<div class="discounts__item__title">Greys Vage</div>
+						<div class="discounts__item__timer">7 Days Remaining</div>
+					</div>
+					<div class="futunre__item">
+						<div class="discounts__item__img">
+							<img
+								class="img__discounts__item__picture"
+								src="/assets/images/discounts/Image-3.png"
+							/>
+							<div class="sale__block">
+								<div class="persents">20</div>
+								<p class="sale__opt">
+									%
+									<span>off</span>
+								</p>
+							</div>
+						</div>
+						<div class="discounts__item__title">Greys Vage</div>
+						<div class="discounts__item__timer">8 Days Remaining</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="howWork">
+			<div class="feature__bg"></div>
+			<div class="container">
+				<div class="howWork__content">
+					<div class="howWork__title">How does it work</div>
+					<div class="howWork__items">
+						<div class="howWork__component">
+							<img
+								class="howWork__component__logo"
+								src="./assets/images/howWork/MapMarker.svg"
+							/>
+							<div class="howWork__component__title">Select location</div>
+							<div class="howWork__component_desc">
+								Choose the location where your food will be delivered.
+							</div>
+						</div>
+						<div class="howWork__component">
+							<img
+								class="howWork__component__logo"
+								src="./assets/images/howWork/Menu.svg"
+							/>
+							<div class="howWork__component__title">Choose order</div>
+							<div class="howWork__component_desc">
+								Check over hundreds of menus to pick your favorite food
+							</div>
+						</div>
+						<div class="howWork__component">
+							<img
+								class="howWork__component__logo"
+								src="./assets/images/howWork/Invoice.svg"
+							/>
+							<div class="howWork__component__title">Pay advanced</div>
+							<div class="howWork__component_desc">
+								It's quick, safe, and simple. Select several methods of payment
+							</div>
+						</div>
+						<div class="howWork__component">
+							<img
+								class="howWork__component__logo"
+								src="./assets/images/howWork/Donut.svg"
+							/>
+							<div class="howWork__component__title">Enjoy meals</div>
+							<div class="howWork__component_desc">
+								Food is made and delivered directly to your home.
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="popular">
+			<div class="slider">
+				<img src="./assets/images/Popular/chevron.svg" alt="" />
+			</div>
+			<div class="container pag__container">
+				<div class="popular__content">
+					<div class="popular__item">
+						<img
+							src="./assets/images/Popular/Rectangle 336.png"
+							alt=""
+							class="popular__item__img"
+						/>
+						<div class="popular__item__title">Cheese Burger</div>
+						<div class="popular__item__locate">
+							<img src="./assets/images/Popular/marker.svg" alt="" />
+							Burger Arena
+						</div>
+						<div class="popular__item__price">$3.88</div>
+						<div class="popular__item__btn">Order Now</div>
+					</div>
+					<div class="popular__item">
+						<img
+							src="./assets/images/Popular/Rectangle 336-1.png"
+							alt=""
+							class="popular__item__img"
+						/>
+						<div class="popular__item__title">Toffe’s Cake</div>
+						<div class="popular__item__locate">
+							<img src="./assets/images/Popular/marker.svg" alt="" /> Top Sticks
+						</div>
+						<div class="popular__item__price">$4.00</div>
+						<div class="popular__item__btn">Order Now</div>
+					</div>
+					<div class="popular__item">
+						<img
+							src="./assets/images/Popular/Rectangle 336-2.png"
+							alt=""
+							class="popular__item__img"
+						/>
+						<div class="popular__item__title">Dancake</div>
+						<div class="popular__item__locate">
+							<img src="./assets/images/Popular/marker.svg" alt="" /> Cake World
+						</div>
+						<div class="popular__item__price">$1.99</div>
+						<div class="popular__item__btn">Order Now</div>
+					</div>
+					<div class="popular__item">
+						<img
+							src="./assets/images/Popular/Rectangle 336-3.png"
+							alt=""
+							class="popular__item__img"
+						/>
+						<div class="popular__item__title">Crispy Sandwitch</div>
+						<div class="popular__item__locate">
+							<img src="./assets/images/Popular/marker.svg" alt="" /> Fastfood
+							Dine
+						</div>
+						<div class="popular__item__price">$3.00</div>
+						<div class="popular__item__btn">Order Now</div>
+					</div>
+					<div class="popular__item">
+						<img
+							src="./assets/images/Popular/Rectangle 336-4.png"
+							alt=""
+							class="popular__item__img"
+						/>
+						<div class="popular__item__title">Thai Soup</div>
+						<div class="popular__item__locate">
+							<img src="./assets/images/Popular/marker.svg" alt="" /> Foody man
+						</div>
+						<div class="popular__item__price">$2.79</div>
+						<div class="popular__item__btn">Order Now</div>
+					</div>
+				</div>
+			</div>
+			<div class="slider">
+				<img
+					style="transform: rotate(180deg)"
+					src="./assets/images/Popular/chevron.svg"
+					alt=""
+				/>
+			</div>
+		</section>
+		<section class="featured">
+			<div class="container">
+				<div class="featured__title">Featured Restaurants</div>
+				<div class="featured__content">
+					<div class="featured__item">
+						<div class="featured__image__block">
+							<img
+								src="./assets/images/featuredRes/food/Image1.png"
+								alt=""
+								class="featured__image__bg"
+							/>
+							<div class="featured__discount">
+								<img src="/assets/images/featuredRes/ui/discount.svg" alt="" />
+								20% off
+							</div>
+							<div class="featured__time">
+								<img src="/assets/images/featuredRes/ui/time.svg" alt="" /> Fast
+							</div>
+						</div>
+						<div class="featured__company__block">
+							<div class="featured__company__logo">
+								<img
+									src="./assets/images/featuredRes/company/Image1.png"
+									alt=""
+								/>
+							</div>
+							<div class="featured__company__content">
+								<div class="featured__company__name">Foodworld</div>
+								<div class="featured__company__rating">
+									<img src="./assets/images/featuredRes/ui/star.svg" alt="" />
+									<span>46</span>
+								</div>
+							</div>
+						</div>
+						<div class="featured__status">Opens tomorrow</div>
+					</div>
+					<div class="featured__item">
+						<div class="featured__image__block">
+							<img
+								src="./assets/images/featuredRes/food/Image2.png"
+								alt=""
+								class="featured__image__bg"
+							/>
+							<div class="featured__discount">
+								<img src="/assets/images/featuredRes/ui/discount.svg" alt="" />
+								15% off
+							</div>
+							<div class="featured__time">
+								<img src="/assets/images/featuredRes/ui/time.svg" alt="" /> Fast
+							</div>
+						</div>
+						<div class="featured__company__block">
+							<div class="featured__company__logo">
+								<img
+									src="./assets/images/featuredRes/company/Image2.png"
+									alt=""
+								/>
+							</div>
+							<div class="featured__company__content">
+								<div class="featured__company__name">Pizzahub</div>
+								<div class="featured__company__rating">
+									<img src="./assets/images/featuredRes/ui/star.svg" alt="" />
+									<span>40</span>
+								</div>
+							</div>
+						</div>
+						<div class="featured__status">Opens tomorrow</div>
+					</div>
+					<div class="featured__item">
+						<div class="featured__image__block">
+							<img
+								src="./assets/images/featuredRes/food/Image3.png"
+								alt=""
+								class="featured__image__bg"
+							/>
+							<div class="featured__discount">
+								<img src="/assets/images/featuredRes/ui/discount.svg" alt="" />
+								10% off
+							</div>
+							<div class="featured__time">
+								<img src="/assets/images/featuredRes/ui/time.svg" alt="" /> Fast
+							</div>
+						</div>
+						<div class="featured__company__block">
+							<div class="featured__company__logo">
+								<img
+									src="./assets/images/featuredRes/company/Image3.png"
+									alt=""
+								/>
+							</div>
+							<div class="featured__company__content">
+								<div class="featured__company__name">Donuts hut</div>
+								<div class="featured__company__rating">
+									<img src="./assets/images/featuredRes/ui/star.svg" alt="" />
+									<span>20</span>
+								</div>
+							</div>
+						</div>
+						<div class="featured__status open">Open now</div>
+					</div>
+					<div class="featured__item">
+						<div class="featured__image__block">
+							<img
+								src="./assets/images/featuredRes/food/Image4.png"
+								alt=""
+								class="featured__image__bg"
+							/>
+							<div class="featured__discount">
+								<img src="/assets/images/featuredRes/ui/discount.svg" alt="" />
+								15% off
+							</div>
+							<div class="featured__time">
+								<img src="/assets/images/featuredRes/ui/time.svg" alt="" /> Fast
+							</div>
+						</div>
+						<div class="featured__company__block">
+							<div class="featured__company__logo">
+								<img
+									src="./assets/images/featuredRes/company/Image4.png"
+									alt=""
+								/>
+							</div>
+							<div class="featured__company__content">
+								<div class="featured__company__name">Donuts hut</div>
+								<div class="featured__company__rating">
+									<img src="./assets/images/featuredRes/ui/star.svg" alt="" />
+									<span>50</span>
+								</div>
+							</div>
+						</div>
+						<div class="featured__status open">Open now</div>
+					</div>
+					<div class="featured__item">
+						<div class="featured__image__block">
+							<img
+								src="./assets/images/featuredRes/food/Image5.png"
+								alt=""
+								class="featured__image__bg"
+							/>
+							<div class="featured__discount">
+								<img src="/assets/images/featuredRes/ui/discount.svg" alt="" />
+								10% off
+							</div>
+							<div class="featured__time">
+								<img src="/assets/images/featuredRes/ui/time.svg" alt="" /> Fast
+							</div>
+						</div>
+						<div class="featured__company__block">
+							<div class="featured__company__logo">
+								<img
+									src="./assets/images/featuredRes/company/Image5.png"
+									alt=""
+								/>
+							</div>
+							<div class="featured__company__content">
+								<div class="featured__company__name">Ruby Tuesday</div>
+								<div class="featured__company__rating">
+									<img src="./assets/images/featuredRes/ui/star.svg" alt="" />
+									<span>26</span>
+								</div>
+							</div>
+						</div>
+						<div class="featured__status open">Open now</div>
+					</div>
+					<div class="featured__item">
+						<div class="featured__image__block">
+							<img
+								src="./assets/images/featuredRes/food/Image6.png"
+								alt=""
+								class="featured__image__bg"
+							/>
+							<div class="featured__discount">
+								<img src="/assets/images/featuredRes/ui/discount.svg" alt="" />
+								25% off
+							</div>
+							<div class="featured__time">
+								<img src="/assets/images/featuredRes/ui/time.svg" alt="" /> Fast
+							</div>
+						</div>
+						<div class="featured__company__block">
+							<div class="featured__company__logo">
+								<img
+									src="./assets/images/featuredRes/company/Image6.png"
+									alt=""
+								/>
+							</div>
+							<div class="featured__company__content">
+								<div class="featured__company__name">Kuakata Fried Chicken</div>
+								<div class="featured__company__rating">
+									<img src="./assets/images/featuredRes/ui/star.svg" alt="" />
+									<span>53</span>
+								</div>
+							</div>
+						</div>
+						<div class="featured__status open">Open now</div>
+					</div>
+					<div class="featured__item">
+						<div class="featured__image__block">
+							<img
+								src="./assets/images/featuredRes/food/Image7.png"
+								alt=""
+								class="featured__image__bg"
+							/>
+							<div class="featured__discount">
+								<img src="/assets/images/featuredRes/ui/discount.svg" alt="" />
+								10% off
+							</div>
+							<div class="featured__time">
+								<img src="/assets/images/featuredRes/ui/time.svg" alt="" /> Fast
+							</div>
+						</div>
+						<div class="featured__company__block">
+							<div class="featured__company__logo">
+								<img
+									src="./assets/images/featuredRes/company/Image7.png"
+									alt=""
+								/>
+							</div>
+							<div class="featured__company__content">
+								<div class="featured__company__name">Red Square</div>
+								<div class="featured__company__rating">
+									<img src="./assets/images/featuredRes/ui/star.svg" alt="" />
+									<span>45</span>
+								</div>
+							</div>
+						</div>
+						<div class="featured__status open">Open now</div>
+					</div>
+					<div class="featured__item">
+						<div class="featured__image__block">
+							<img
+								src="./assets/images/featuredRes/food/Image8.png"
+								alt=""
+								class="featured__image__bg"
+							/>
+							<div class="featured__discount">
+								<img src="/assets/images/featuredRes/ui/discount.svg" alt="" />
+								10% off
+							</div>
+							<div class="featured__time">
+								<img src="/assets/images/featuredRes/ui/time.svg" alt="" /> Fast
+							</div>
+						</div>
+						<div class="featured__company__block">
+							<div class="featured__company__logo">
+								<img
+									src="./assets/images/featuredRes/company/Image8.png"
+									alt=""
+								/>
+							</div>
+							<div class="featured__company__content">
+								<div class="featured__company__name">Taco Bell</div>
+								<div class="featured__company__rating">
+									<img src="./assets/images/featuredRes/ui/star.svg" alt="" />
+									<span>35</span>
+								</div>
+							</div>
+						</div>
+						<div class="featured__status open">Open now</div>
+					</div>
+				</div>
+				<div class="featured__btn">
+					<a href="#" class="featured__btn__link">
+						View All
+						<img src="./assets/images/featuredRes/ui/smallArrow.svg" alt=""
+					/></a>
+				</div>
+			</div>
+		</section>
+		<section class="searchFood">
+			<div class="container">
+				<div class="searchFood__header">
+					<div class="searchFood__header__title">Search by Food</div>
+					<div class="searchFood__header__btns">
+						<a href="#" class="viewAll__btn"
+							>View All
+							<img src="./assets/images/searchFood/ui/small-chevron.svg" alt=""
+						/></a>
+						<div class="searchFood__header__pagination">
+							<button class="pag-left">
+								<img
+									src="./assets/images/searchFood/ui/chevron.svg"
+									alt=""
+								/></button
+							><button class="pag-right">
+								<img src="./assets/images/searchFood/ui/chevron.svg" alt="" />
+							</button>
+						</div>
+					</div>
+				</div>
+				<div class="searchFood__content">
+					<div class="searchFood__item">
+						<div class="searchFood__item__img">
+							<img src="./assets/images/searchFood/items/Image1.png" alt="" />
+						</div>
+						<div class="searchFood__item__title">Pizza</div>
+					</div>
+					<div class="searchFood__item">
+						<div class="searchFood__item__img">
+							<img src="./assets/images/searchFood/items/Image2.png" alt="" />
+						</div>
+						<div class="searchFood__item__title">Burger</div>
+					</div>
+					<div class="searchFood__item">
+						<div class="searchFood__item__img">
+							<img src="./assets/images/searchFood/items/Image3.png" alt="" />
+						</div>
+						<div class="searchFood__item__title">Noodles</div>
+					</div>
+					<div class="searchFood__item">
+						<div class="searchFood__item__img">
+							<img src="./assets/images/searchFood/items/Image4.png" alt="" />
+						</div>
+						<div class="searchFood__item__title">Sub-sandiwch</div>
+					</div>
+					<div class="searchFood__item">
+						<div class="searchFood__item__img">
+							<img src="./assets/images/searchFood/items/Image5.png" alt="" />
+						</div>
+						<div class="searchFood__item__title">Chowmein</div>
+					</div>
+					<div class="searchFood__item">
+						<div class="searchFood__item__img">
+							<img src="./assets/images/searchFood/items/Image6.png" alt="" />
+						</div>
+						<div class="searchFood__item__title">Steak</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="featuers">
+			<div class="container">
+				<div class="features__content">
+					<div class="features__item">
+						<div class="features__item__icon">
+							<img src="./assets/images/features/Icon1.svg" alt="" />
+						</div>
+						<div class="features__item__title">Daily<br />Discounts</div>
+					</div>
+					<hr />
+					<div class="features__item">
+						<div class="features__item__icon">
+							<img src="./assets/images/features/Icon2.svg" alt="" />
+						</div>
+						<div class="features__item__title">Live <br />Tracing</div>
+					</div>
+					<hr />
+					<div class="features__item">
+						<div class="features__item__icon">
+							<img src="./assets/images/features/Icon3.svg" alt="" />
+						</div>
+						<div class="features__item__title">Quick <br />Delivery</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="downloadApp">
+			<div class="downloadApp__bg"></div>
+			<div class="container">
+				<div class="downloadApp__content">
+					<div class="downloadApp__content__image">
+						<img src="./assets/images/DownloadApp/Image.png" alt="" />
+					</div>
+					<div class="downloadApp__content__interface">
+						<div class="downloadApp__content__title">Install the app</div>
+						<div class="downloadApp__content__desc">
+							It's never been easier to order food. Look for the finest
+							discounts and you'll be lost in a world of delectable food.
+						</div>
+						<div class="downloadApp__content__btns">
+							<img
+								src="./assets/images/DownloadApp/ui/Google-Play-Btn.svg"
+								class="downloadApp__btn"
+							/>
+							<img
+								src="./assets/images/DownloadApp/ui/App-Store-Btn.svg"
+								class="downloadApp__btn"
+							/>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="details">
+			<div class="container">
+				<div class="details__content">
+					<div class="details__item" data--reverse="false">
+						<div class="details__item__left">
+							<div class="details__item__title">
+								Best deals <span class="highlight">Crispy Sandwiches</span>
+							</div>
+							<div class="details__item__subtitle">
+								Enjoy the large size of sandwiches. Complete perfect slice of
+								sandwiches.
+							</div>
+							<a href="#" class="details__item__btn"
+								>Proceed to order
+								<img src="./assets/images/details/ui/CHEVRON-RIGHT.svg" alt=""
+							/></a>
+						</div>
+						<div class="details__item__right">
+							<img src="./assets/images/details/pictures/Image2.png" alt="" />
+						</div>
+					</div>
+					<div class="details__item" data--reverse="true">
+						<div class="details__item__left">
+							<div class="details__item__title">
+								Celebrate parties with
+								<span class="highlight"> Fried Chicken</span>
+							</div>
+							<div class="details__item__subtitle">
+								Get the best fried chicken smeared with a lip smacking lemon
+								chili flavor. Check out best deals for fried chicken.
+							</div>
+							<a href="#" class="details__item__btn"
+								>Proceed to order
+								<img src="./assets/images/details/ui/CHEVRON-RIGHT.svg" alt=""
+							/></a>
+						</div>
+						<div class="details__item__right">
+							<img src="./assets/images/details/pictures/Image3.png" alt="" />
+						</div>
+					</div>
+					<div class="details__item" data--reverse="false">
+						<div class="details__item__left">
+							<div class="details__item__title">
+								Wanna eat hot & spicy
+								<span class="highlight"> Pizza?</span>
+							</div>
+							<div class="details__item__subtitle">
+								Pair up with a friend and enjoy the hot and crispy pizza pops.
+								Try it with the best deals.
+							</div>
+							<a href="#" class="details__item__btn"
+								>Proceed to order
+								<img src="./assets/images/details/ui/CHEVRON-RIGHT.svg" alt=""
+							/></a>
+						</div>
+						<div class="details__item__right">
+							<img src="./assets/images/details/pictures/Image1.png" alt="" />
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="cta">
+			<div class="container">
+				<div class="cta__content">
+					<div class="cta__title">
+						Are you ready to order with the best deals?
+					</div>
+					<div class="cta__btn">Proceed to order</div>
+				</div>
+			</div>
+		</section>
+		<footer class="footer">
+			<div class="container">
+				<div class="footer__top">
+					<div class="footer__top__title">Our top cities</div>
+					<div class="footer__top__content">
+						<ul class="footer__list">
+							<li class="footer__list__item">
+								<a href="#">San Francisco</a>
+							</li>
+							<li class="footer__list__item">
+								<a href="#">Miami</a>
+							</li>
+							<li class="footer__list__item">
+								<a href="#">San Diego</a>
+							</li>
+							<li class="footer__list__item">
+								<a href="#">East Bay</a>
+							</li>
+							<li class="footer__list__item">
+								<a href="#">Long Beach</a>
+							</li>
+						</ul>
+						<ul class="footer__list">
+							<li class="footer__list__item">
+								<a href="#">Los Angeles</a>
+							</li>
+							<li class="footer__list__item">
+								<a href="#">Washington DC</a>
+							</li>
+							<li class="footer__list__item">
+								<a href="#">Seattle</a>
+							</li>
+							<li class="footer__list__item">
+								<a href="#">Portland</a>
+							</li>
+							<li class="footer__list__item">
+								<a href="#">Nashville</a>
+							</li>
+						</ul>
+						<ul class="footer__list">
+							<li class="footer__list__item">
+								<a href="#">New York City</a>
+							</li>
+							<li class="footer__list__item">
+								<a href="#">Orange County</a>
+							</li>
+							<li class="footer__list__item">
+								<a href="#">Atlanta</a>
+							</li>
+							<li class="footer__list__item">
+								<a href="#">Charlotte</a>
+							</li>
+							<li class="footer__list__item">
+								<a href="#">Denver</a>
+							</li>
+						</ul>
+						<ul class="footer__list">
+							<li class="footer__list__item">
+								<a href="#">Chicago</a>
+							</li>
+							<li class="footer__list__item">
+								<a href="#">Phoenix</a>
+							</li>
+							<li class="footer__list__item">
+								<a href="#">Las Vegas</a>
+							</li>
+							<li class="footer__list__item">
+								<a href="#">Sacramento</a>
+							</li>
+							<li class="footer__list__item">
+								<a href="#">Oklahoma City</a>
+							</li>
+						</ul>
+						<ul class="footer__list">
+							<li class="footer__list__item">
+								<a href="#">Columbus</a>
+							</li>
+							<li class="footer__list__item">
+								<a href="#">New Mexico</a>
+							</li>
+							<li class="footer__list__item">
+								<a href="#">Albuquerque</a>
+							</li>
+							<li class="footer__list__item">
+								<a href="#">Sacramento</a>
+							</li>
+							<li class="footer__list__item">
+								<a href="#">New Orleans</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<hr />
+				<div class="footer__bottom">
+					<div class="footer__bottom__left">
+						<div class="footer__bottom__left__box">
+							<div class="footer__bottom__left__title">Company</div>
+							<ul class="footer__list">
+								<li class="footer__list__item">
+									<a href="#">About us</a>
+								</li>
+								<li class="footer__list__item">
+									<a href="#">Team</a>
+								</li>
+								<li class="footer__list__item">
+									<a href="#">Careers</a>
+								</li>
+								<li class="footer__list__item">
+									<a href="#">Blog</a>
+								</li>
+							</ul>
+						</div>
+						<div class="footer__bottom__left__box">
+							<div class="footer__bottom__left__title">Contact</div>
+							<ul class="footer__list">
+								<li class="footer__list__item">
+									<a href="#">Help & Support</a>
+								</li>
+								<li class="footer__list__item">
+									<a href="#">Partner with us</a>
+								</li>
+								<li class="footer__list__item">
+									<a href="#">Ride with us</a>
+								</li>
+							</ul>
+						</div>
+						<div class="footer__bottom__left__box">
+							<div class="footer__bottom__left__title">Legal</div>
+							<ul class="footer__list">
+								<li class="footer__list__item">
+									<a href="#">Terms & Conditions</a>
+								</li>
+								<li class="footer__list__item">
+									<a href="#">Refund & Cancellation</a>
+								</li>
+								<li class="footer__list__item">
+									<a href="#">Privacy Policy</a>
+								</li>
+								<li class="footer__list__item">
+									<a href="#">Cookie Policy</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="footer__bottom__rigth">
+						<div class="footer__bottom__rigth__title">Follow Us</div>
+						<div class="footer__bottom__rigth__links">
+							<img src="./assets/images/cta+footer/ui/instagram.svg" alt="" />
+							<img src="./assets/images/cta+footer/ui/facebook.svg" alt="" />
+							<img src="./assets/images/cta+footer/ui/twitter.svg" alt="" />
+						</div>
+						<div class="footer__bottom__rigth__form__title">
+							Receive exclusive offers in your mailbox
+						</div>
+						<div class="footer__bottom__rigth__form">
+							<img
+								src="./assets/images/cta+footer/ui/email.svg"
+								alt=""
+								class="input__placeholder"
+							/>
+							<input
+								placeholder="Enter Your email"
+								class="footer__bottom__rigth__form__inp"
+								type="email"
+							/>
+							<a href="#" class="footer__bottom__rigth__form__btn">Subscribe</a>
+						</div>
+					</div>
+				</div>
+				<hr />
+				<div class="footer__rights">
+					<div class="rights">
+						All rights Reserved <span>&copy; Oleh Vovchanskyi, 2024</span>
+					</div>
+					<div class="rights">
+						Made with
+						<img src="./assets/images/cta+footer/ui/heart.svg" alt="" /> by
+						<span>Oleh Vovchanskyi</span>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+			integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		></script>
+		<script src="index.js"></script>
+	</body>
+</html>
